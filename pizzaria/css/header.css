@@ -1,0 +1,59 @@
+header {
+    background-image: linear-gradient(to right, #A7112A ,#921A36,#8C184A,#87175C,#88175B,#87175E,#82156F);
+    box-shadow: var(--shadow);
+    color: #F5F5F5;
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.logo{
+    margin-left: 130px;
+    align-self: center;
+}
+
+.icons{
+    align-self:center;
+    margin-left: 250px;
+}
+.botao{
+    align-self: center;
+    margin-left: 50px;
+    background-color: #AE0B1A;
+    padding: 15px;
+    border-radius: 25px;
+    
+}
+.botao a{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.menu{
+    align-self: center;
+    margin-left: 100px;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+    align-self: center;
+   
+}
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+    font-weight: 600;
+}
+
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    text-decoration: none;
+    color:#FFF;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}

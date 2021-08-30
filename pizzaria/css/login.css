@@ -1,0 +1,88 @@
+.login-container{ 
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding: 20px 30px;
+    background-color:#D7D7D7 ;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10vh;
+    
+}
+*{
+    border: none;
+}
+.form{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.user{
+    margin-bottom: 10px;
+}
+label{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px; 
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #831B1E;
+}
+input{
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-bottom: 1px solid #323232;
+    font-size: 1rem;
+    background-color:#D7D7D7 ;
+}
+.checkbox{
+    display: initial;
+    text-align: left;
+    font-weight: normal;
+    font-size: initial;
+
+}
+#checkbox{
+    width:15px;
+    display:initial;
+    text-align: left;
+    height: 14px;
+    margin-top: 10px;
+    text-align: left;
+
+}
+#forgot-pass{
+    text-align: right;
+    margin-left: 105px;
+    
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    border-radius: 12px;
+    margin-top:30px;
+    color: white;
+    background-color:#AE0B1A;
+}
+
+
+.btn{
+    background-color:#DC8433 ;
+    color: white;
+    border-radius: 12px;
+    width: 250px;
+    font-weight: bold;
+
+}
+
+.login-container a{
+    color: #831B1E;
+}
+
+
+ 

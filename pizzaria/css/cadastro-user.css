@@ -1,0 +1,52 @@
+*{
+    border: none;
+}
+.cadastro-container{ 
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding: 20px 30px;
+    background-color:#D7D7D7 ;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10vh;
+    
+}
+
+label{
+    width: 100%;
+    margin-bottom: 10px; 
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #831B1E;
+}
+select{
+    border-bottom: 1px solid #323232 !important;
+    background-color:#D7D7D7 !important ;
+    border-radius: unset !important;
+}
+
+input{
+    border: none !important;
+    border-bottom: 1px solid #323232 !important;
+    margin-bottom: 15px;
+    background-color:#D7D7D7 !important ;
+    border-radius: unset !important;
+}
+
+input[type="submit"]{
+    width: 40%;
+    height: 40px;
+    align-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    border-radius: 12px !important;
+    margin-top:30px;
+    color: white;
+    background-color:#AE0B1A !important;
+}
+

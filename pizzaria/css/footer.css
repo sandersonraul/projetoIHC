@@ -1,0 +1,49 @@
+footer {
+    grid-area: footer;
+   
+    background-image: linear-gradient(to right,#DA4646 ,#F1B51B);
+    box-shadow: var(--shadow);
+    justify-content: center;
+    height: 240px;
+    
+    
+    
+}
+.itens-footer{
+    
+    align-self: center;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+.itens-footer p{
+    color: white;
+    font-weight: bold;
+}
+.itens-footer a{
+    color: white;
+}
+
+.content-img{
+    height: 35px;
+    width:220px;
+    background-color: white;
+    border-radius: 25px;
+        
+}
+.content-img img{
+    margin-left: 5px;
+}
+.content-img a{
+    
+    color:#831B1E;
+    font-weight: bold;
+}
+
+.logo-footer{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
+}

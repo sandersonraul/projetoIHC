@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/template.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/header.css'>   
+    <link rel='stylesheet' type='text/css' media='screen' href='css/content.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/cadastro-user.css'>
+</head>
+
+<body>
+
+    <div class="app">
+        <header>
+            <a href="index.html"><div class="logo"><img src="img/logo.png" alt="pizzaria-logo" width="150"></div></a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="#">CARDÁPIO</a></li>
+                    <li><a href="#">QUEM SOMOS</a></li>
+                </ul>
+            </div>
+                
+           
+            <div class="icons">
+                <a href="#"> <img src="img/instagram.logo.png" alt="instagram-logo" width="78"></a>
+                <a href="#"><img src="img/whatsapp.logo.png" alt="whatsapp-logo" width="55"> </a>
+                
+            </div>
+            <div class="botao"><a href="">PEDIR ONLINE</a></div>
+        </header>
+
+        
+        <main class="content">
+            <div class="cadastro-container">
+                <h2>Cadastre-se</h2>
+                <form class="row g-3 " id="adiciona-livro">
+                    <div class="col-md-6">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome"> 
+                    </div>
+    
+                    <div class="col-md-6">
+                        <label for="telefone">Telefone</label>
+                        <input type="number" class="form-control" id="telefone" placeholder="Digite seu número de telefone">
+                    </div>
+        
+                    <div class="form-group col-md-6">
+                        <label for="cidade">Cidade</label>
+                        <select id="cidade" class="form-control form-select">
+                            <option>Selecione a cidade</option>
+                            <option value="Pereiro">Pereiro</option>
+                            <option value="Jaguaribe">Jaguaribe</option>
+                            <option value="São Miguel">São Miguel</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="endereço">Endereço</label>
+                        <input type="text" class="form-control" id="endereço" placeholder="Digite seu endereço">
+                    </div>
+    
+                    <div class="form-group col-md-4">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" class="form-control" id="bairro" placeholder="Digite o bairro">
+                    </div>
+    
+                    <div class="form-group col-md-4">
+                        <label for="numero">Número</label>
+                        <input type="number" class="form-control" id="numero" placeholder="Número da sua casa">
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" class="form-control" id="complemento" placeholder="Apartamento, edifício, etc.">
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail ">
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-control" id="senha" placeholder="Digite sua senha ">
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="senha2">Confirmar senha</label>
+                        <input type="password" class="form-control" id="senha2" placeholder="Confirme sua senha ">
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center container">
+                        <input type="submit" value="Cadastrar-se">
+                    </div>
+                    
+                </form>
+            </div>
+        </main>
+        
+        <footer class="container-fluid">
+            <div class="itens-footer">
+             <p>
+                 <a href="#">Fale Conosco</a> | <a href="#">Trabalhe Conosco</a> | <a href="#">Perguntas Frequentes</a>   
+             </p>
+            </div>
+            <div class="row justify-content-center">
+              <div class="content-img">
+                <a href=""><img src="img/instragram.logo2.png" alt="instagram-logo" width="38">Siga-nos no instagram</a>
+              </div>
+            </div>
+            
+           
+              <a href="index.html"><div class="logo-footer"><img src="img/logo.png" alt="pizzaria-logo" width="150"></div></a>
+         
+            
+            
+         </footer>
+
+        
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
